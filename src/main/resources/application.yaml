@@ -6,5 +6,17 @@ spring:
       server:
         git:
           clone-on-start: true
-          uri: https://github.com/zulvani/zul-cloud-config.git
+          uri: git@gitlab.com:goota-academy/goota-configuration.git
+          ignore-local-ssh-settings: true
+          default-label: master
+          passphrase: goota123
+          private-key: |
+                        -----BEGIN OPENSSH PRIVATE KEY-----
+                        b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABDbhyOFkd
+                        iAu6SiOSCs6zw0AAAAEAAAAAEAAAAzAAAAC3NzaC1lZDI1NTE5AAAAINfHMeP9m0A8Z92L
+                        GFDVAMXkmuNqD/9g2P/B3UF0N8CzAAAAoCbQqn87EymfvFy2gVFq85Slau3upuTHpwzrak
+                        It/xETRIZTl775zQhX9IYhwGM5rFNEabpMh48La/5QdLizhaguYq14wXkDePZIAb0p/+mn
+                        8BTL4y6RGCoY5pN1KValb7UCwyxaU6zA8gVBqNVix4S3KnThs9gSV7wAlAPuD/dH3a8jLl
+                        odEJhpqLHGznJuf2ZH/AGdxR9LlH2G4SrOlYs=
+                        -----END OPENSSH PRIVATE KEY-----
 
